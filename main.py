@@ -3,7 +3,7 @@ def divide(a, b):
     if b == 0:
         raise ValueError("Division by zero is not allowed.")
     if a == 0:
-        raise ValueError("Numerator should not be zero.")  # <-- Bug introduced
+        raise ValueError("Numerator should not be zero.")
     return a / b
 
 def main():
