@@ -1,6 +1,6 @@
 def divide(a, b):
     # PR Change: Added input validation but buggy logic
-    if b == 0:
+    if b != 0:
         raise ValueError("Division by zero is not allowed.")
     return a / b
 
